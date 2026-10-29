@@ -1,0 +1,13 @@
+{
+  "name": "amg-juguetes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catálogo mayorista estático con Google Sheets, carrito y formulario de pedidos.",
+  "scripts": {
+    "build": "node scripts/build-static.js",
+    "preview": "node scripts/serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Catálogo mayorista de juguetes AMG. Consulta productos, arma tu pedido y envíalo directamente."
+    />
+    <meta name="theme-color" content="#17233f" />
+    <title>AMG Juguetes | Catálogo al por mayor</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      <div class="container announcement-inner">
+        <span>Pedidos al por mayor · Catálogo en línea</span>
+        <span class="announcement-note">Atención directa en español</span>
+      </div>
+    </div>
+
+    <header class="site-header" id="inicio">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="AMG Juguetes, inicio">
+          <span class="brand-mark" aria-hidden="true">
+            <span>A</span>
+            <span>M</span>
+            <span>G</span>
+          </span>
+          <span class="brand-copy">
+            <strong>AMG</strong>
+            <small>JUGUETES AL POR MAYOR</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#catalogo">Catálogo</a>
+          <a href="#como-comprar">Cómo comprar</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="cart-button" type="button" data-open-cart aria-label="Abrir carrito">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H6.2M9 20a1 1 0 1 0 0 .1M17 20a1 1 0 1 0 0 .1" />
+          </svg>
+          <span class="cart-label">Mi pedido</span>
+          <span class="cart-count" data-cart-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-grid container">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Catálogo para comercios y revendedores
+            </div>
+            <h1>Juguetes que hacen <em>crecer</em> tu negocio.</h1>
+            <p class="hero-lead">
+              Descubre nuestra selección de juguetes, arma tu pedido en minutos y
+              envíalo directamente a nuestro equipo.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#catalogo">
+                Explorar catálogo
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+              <a class="button button-secondary" href="#como-comprar">Cómo comprar</a>
+            </div>
+            <div class="hero-trust" aria-label="Ventajas">
+              <span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                Precios mayoristas
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                Pedido sin registro
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+                Atención personal
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <span class="hero-orbit hero-orbit-one"></span>
+            <span class="hero-orbit hero-orbit-two"></span>
+            <span class="hero-spark hero-spark-one">✦</span>
+            <span class="hero-spark hero-spark-two">✦</span>
+            <div class="display-card display-card-back">
+              <div class="mini-art mini-art-orange">
+                <span class="mini-car"><i></i><i></i></span>
+              </div>
+              <span class="mini-label">Vehículos</span>
+            </div>
+            <div class="display-card display-card-front">
+              <div class="product-stage">
+                <span class="stage-burst"></span>
+                <span class="toy-block toy-block-one"></span>
+                <span class="toy-block toy-block-two"></span>
+                <span class="toy-block toy-block-three"></span>
+                <span class="toy-block toy-block-four"></span>
+                <span class="toy-face">●‿●</span>
+              </div>
+              <div class="display-meta">
+                <span>Nuevos favoritos</span>
+                <strong>Para todas las edades</strong>
+              </div>
+            </div>
+            <div class="display-badge">
+              <span>CATÁLOGO</span>
+              <strong>EN LÍNEA</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefit-strip">
+        <div class="container benefits">
+          <div class="benefit">
+            <span class="benefit-icon benefit-icon-yellow">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 7h16v12H4zM8 7V5h8v2M8 11h8M8 15h5" />
+              </svg>
+            </span>
+            <span><strong>Selección variada</strong><small>Opciones para cada tienda</small></span>
+          </div>
+          <div class="benefit">
+            <span class="benefit-icon benefit-icon-blue">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16v11H8l-4 4V5zM8 9h8M8 12h5" />
+              </svg>
+            </span>
+            <span><strong>Pedido organizado</strong><small>Todo listo para enviar</small></span>
+          </div>
+          <div class="benefit">
+            <span class="benefit-icon benefit-icon-coral">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 21s7-3.4 7-10V5l-7-2-7 2v6c0 6.6 7 10 7 10zM9 11l2 2 4-4" />
+              </svg>
+            </span>
+            <span><strong>Compra confiable</strong><small>Confirmación con un asesor</small></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalogo">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">NUESTRA SELECCIÓN</span>
+              <h2>Encuentra el próximo éxito de tu tienda</h2>
+            </div>
+            <div class="catalog-status" data-catalog-status role="status">
+              <span class="status-dot"></span>
+              <span data-status-text>Cargando catálogo...</span>
+            </div>
+          </div>
+
+          <div class="catalog-toolbar">
+            <label class="search-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m16 16 4 4"></path>
+              </svg>
+              <span class="sr-only">Buscar productos</span>
+              <input
+                type="search"
+                id="product-search"
+                placeholder="Buscar por nombre o SKU..."
+                autocomplete="off"
+              />
+            </label>
+            <label class="sort-box">
+              <span>Ordenar por</span>
+              <select id="product-sort" aria-label="Ordenar productos">
+                <option value="featured">Destacados</option>
+                <option value="name">Nombre A–Z</option>
+                <option value="price-low">Precio: menor a mayor</option>
+                <option value="price-high">Precio: mayor a menor</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="category-filter" id="category-filter" aria-label="Filtrar por categoría">
+            <button class="category-chip is-active" type="button" data-category="all">
+              Todos <span data-count="all">0</span>
+            </button>
+          </div>
+
+          <div class="results-line">
+            <span data-results-count>Mostrando productos</span>
+            <button class="clear-filters" type="button" data-clear-filters hidden>
+              Limpiar filtros
+            </button>
+          </div>
+
+          <div class="product-grid" id="product-grid" aria-live="polite"></div>
+
+          <div class="catalog-empty" id="catalog-empty" hidden>
+            <span class="empty-spark">✦</span>
+            <h3>No encontramos productos</h3>
+            <p>Prueba con otra palabra o selecciona una categoría diferente.</p>
+            <button class="button button-secondary" type="button" data-clear-filters>
+              Ver todo el catálogo
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps-section" id="como-comprar">
+        <div class="container steps-layout">
+          <div class="steps-copy">
+            <span class="section-kicker section-kicker-light">COMPRAR ES FÁCIL</span>
+            <h2>De tu catálogo a nuestro equipo en tres pasos.</h2>
+            <p>
+              No necesitas crear una cuenta. Agrega los productos que te interesan
+              y envíanos el resumen para confirmar disponibilidad, cantidades y
+              entrega.
+            </p>
+            <a class="text-link" href="#catalogo">
+              Empezar mi pedido
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </a>
+          </div>
+          <ol class="steps-list">
+            <li>
+              <span class="step-number">01</span>
+              <span><strong>Elige tus productos</strong><small>Explora por categoría y agrega cantidades.</small></span>
+            </li>
+            <li>
+              <span class="step-number">02</span>
+              <span><strong>Revisa tu pedido</strong><small>Puedes ajustar cantidades antes de enviar.</small></span>
+            </li>
+            <li>
+              <span class="step-number">03</span>
+              <span><strong>Envía tus datos</strong><small>Recibirás atención directa para confirmar todo.</small></span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contacto">
+        <div class="container contact-card">
+          <div>
+            <span class="section-kicker">¿TIENES UNA CONSULTA?</span>
+            <h2>Hablemos de tu próximo pedido.</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:1813638105@qq.com" data-email-link>
+              Escribir por correo
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4zM4 7l8 6 8-6" /></svg>
+            </a>
+            <a class="button button-secondary" href="#catalogo">Ver productos</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <a class="brand brand-footer" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">
+            <span>A</span><span>M</span><span>G</span>
+          </span>
+          <span class="brand-copy"><strong>AMG</strong><small>JUGUETES AL POR MAYOR</small></span>
+        </a>
+        <p>Catálogo mayorista para tiendas, distribuidores y revendedores.</p>
+        <div class="footer-links">
+          <a href="#catalogo">Catálogo</a>
+          <a href="#como-comprar">Cómo comprar</a>
+          <a href="mailto:1813638105@qq.com">1813638105@qq.com</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-current-year></span> AMG Juguetes. Todos los derechos reservados.</span>
+        <span>Precios sujetos a confirmación.</span>
+      </div>
+    </footer>
+
+    <div class="drawer-backdrop" data-drawer-backdrop hidden></div>
+    <aside
+      class="cart-drawer"
+      id="cart-drawer"
+      aria-labelledby="cart-title"
+      aria-hidden="true"
+    >
+      <div class="drawer-header">
+        <div>
+          <span class="section-kicker">TU SELECCIÓN</span>
+          <h2 id="cart-title">Mi pedido</h2>
+        </div>
+        <button class="icon-button" type="button" data-close-cart aria-label="Cerrar carrito">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+        </button>
+      </div>
+
+      <div class="cart-content" data-cart-content>
+        <div class="cart-empty" data-cart-empty>
+          <span class="cart-empty-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H6.2M9 20a1 1 0 1 0 0 .1M17 20a1 1 0 1 0 0 .1" />
+            </svg>
+          </span>
+          <h3>Tu pedido está vacío</h3>
+          <p>Agrega productos del catálogo para comenzar.</p>
+          <button class="button button-primary" type="button" data-close-cart>
+            Explorar productos
+          </button>
+        </div>
+        <div class="cart-filled" data-cart-filled hidden>
+          <div class="cart-items" data-cart-items></div>
+          <button class="clear-cart" type="button" data-clear-cart>Vaciar pedido</button>
+        </div>
+      </div>
+
+      <div class="cart-footer" data-cart-footer hidden>
+        <div class="cart-summary-line">
+          <span>Subtotal estimado</span>
+          <strong data-cart-subtotal>$0.00</strong>
+        </div>
+        <p>La disponibilidad y el total final serán confirmados por nuestro equipo.</p>
+        <button class="button button-primary button-full" type="button" data-checkout>
+          Revisar y enviar pedido
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </button>
+      </div>
+    </aside>
+
+    <dialog class="checkout-dialog" id="checkout-dialog" aria-labelledby="checkout-title">
+      <div class="checkout-shell">
+        <div class="checkout-header">
+          <div>
+            <span class="section-kicker">FINALIZAR PEDIDO</span>
+            <h2 id="checkout-title">Tus datos de contacto</h2>
+            <p>Completa el formulario y envíanos tu selección.</p>
+          </div>
+          <button class="icon-button" type="button" data-close-checkout aria-label="Cerrar formulario">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+          </button>
+        </div>
+
+        <div class="checkout-body">
+          <form id="order-form" novalidate>
+            <div class="form-grid">
+              <label class="field">
+                <span>Nombre y apellido <b>*</b></span>
+                <input name="name" type="text" autocomplete="name" required placeholder="Tu nombre" />
+                <small class="field-error"></small>
+              </label>
+              <label class="field">
+                <span>Empresa o tienda</span>
+                <input name="company" type="text" autocomplete="organization" placeholder="Nombre de tu negocio" />
+                <small class="field-error"></small>
+              </label>
+              <label class="field">
+                <span>Teléfono / WhatsApp <b>*</b></span>
+                <input
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  required
+                  placeholder="+58 412 000 0000"
+                />
+                <small class="field-error"></small>
+              </label>
+              <label class="field">
+                <span>Correo electrónico</span>
+                <input name="email" type="email" autocomplete="email" placeholder="tu@correo.com" />
+                <small class="field-error"></small>
+              </label>
+              <label class="field field-full">
+                <span>Notas del pedido</span>
+                <textarea
+                  name="notes"
+                  rows="3"
+                  placeholder="Ciudad de entrega, cantidades especiales u otra información..."
+                ></textarea>
+                <small class="field-error"></small>
+              </label>
+            </div>
+
+            <div class="checkout-order-preview">
+              <div class="preview-heading">
+                <span>Resumen del pedido</span>
+                <strong data-checkout-count>0 productos</strong>
+              </div>
+              <div data-checkout-items></div>
+              <div class="preview-total">
+                <span>Subtotal estimado</span>
+                <strong data-checkout-total>$0.00</strong>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="button button-primary button-submit" type="submit" data-submit-order>
+                <span>Enviar pedido</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM4 7l8 6 8-6" /></svg>
+              </button>
+              <button class="button button-whatsapp" type="button" data-whatsapp-order>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 11.5a8 8 0 0 1-11.9 7L4 20l1.4-4A8 8 0 1 1 20 11.5zM9 8c0 4 3 7 7 7l1-2-3-1-1 1c-1 0-2-1-2-2l1-1-1-3L9 8z" />
+                </svg>
+                Enviar por WhatsApp
+              </button>
+            </div>
+            <p class="form-privacy">
+              Al enviar, aceptas que tus datos se usen únicamente para gestionar este pedido.
+            </p>
+            <div class="form-message" data-form-message role="status" hidden></div>
+          </form>
+
+          <div class="checkout-success" data-checkout-success hidden>
+            <span class="success-mark">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>
+            </span>
+            <h3>¡Pedido enviado!</h3>
+            <p>Gracias por tu pedido. Nuestro equipo lo revisará y se pondrá en contacto contigo.</p>
+            <strong data-order-code></strong>
+            <button class="button button-primary" type="button" data-close-checkout>
+              Seguir explorando
+            </button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+    <script src="config.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
